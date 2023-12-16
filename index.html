@@ -7,14 +7,14 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Custom Css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Frontend Mentor | QR code component</title>
 
@@ -32,25 +32,28 @@
 </head>
 
 <body>
-<main>
-  <section class="card">
-    <img src="images/image-qr-code.png" alt="qr-code">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
-  </section>
+  <main>
+    <section class="card">
+      <img src="images/image-qr-code.png" alt="qr-code" class="card__qr-code">
+      <div class="card__body">
+        <h1 class="card__heading">Improve your front-end skills by building projects</h1>
+        <p class="card__text"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
 
-</main>
-<footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by Christopher DeMille.
-  </div>
+    </section>
 
-</footer>
- 
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.cjdemille.io">C.J. DeMille</a>.
+    </div>
 
-  
+  </footer>
+
+
+
 </body>
 
 </html>
